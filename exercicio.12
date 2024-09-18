@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+int main()
+{
+
+    int x = 0; // x é anos
+    float alturaJoao = 150, alturaJose = 110;
+
+    while (alturaJoao >= alturaJose)
+    {
+        x++;
+        alturaJoao += 2;
+        alturaJose += 3;
+    }
+
+    printf("O jose sera maior que o joao em %d anos", x);
+
+    return 0;
+}
