@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Classificação das variaveis
 int main() {
     int numero;
     int maior = -1;  
